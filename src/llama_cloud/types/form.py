@@ -22,7 +22,9 @@ class Form(BaseModel):
     """One form detected on a page, in two representations of the same content."""
 
     json_: List[Json] = FieldInfo(alias="json")
-    """Structured representation: an ordered tree of sections, fields, and tables"""
+    """
+    Structured representation: an ordered tree of sections, fields, tables, and text
+    """
 
     list: "FormListItem"
     """Flattened list representation of the same content"""
