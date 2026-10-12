@@ -39,7 +39,7 @@ class Evidence(BaseModel):
     hard: Optional[bool] = None
     """Whether this is hard (conclusive) evidence"""
 
-    metadata_tool: Optional[Dict[str, object]] = None
+    metadata: Optional[Dict[str, object]] = None
     """Raw values from the tool behind this finding; the shape varies by tool"""
 
 
