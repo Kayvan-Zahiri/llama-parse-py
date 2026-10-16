@@ -29,6 +29,7 @@ class ParsingListVersionsResponse(BaseModel):
 
     agentic: List[
         Literal[
+            "2026-10-16",
             "2026-10-15",
             "2026-09-29",
             "2026-09-28",
